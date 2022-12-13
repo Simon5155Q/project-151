@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="./proj151.js"></script>
+</head>
+    <body>
+        <a-scene background="color:lightgrey">
+            <a-assets>
+                <a-asset-items id="car" src="./proj151assets/scene.gltf"></a-asset-items>
+            </a-assets>
+            <a-entity carrotation gltf-model="#car" scale="0.5 0.5 0.5"></a-entity>
+            <a-entity>
+                <a-camera cam></a-camera>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
